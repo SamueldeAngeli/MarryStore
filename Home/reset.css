@@ -1,0 +1,47 @@
+/* reset.css */
+
+/* remove margin e padding de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* define a box-sizing para ser border-box */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* remove a decoração de link padrão */
+a {
+    text-decoration: none;
+}
+
+/* define as cores de fundo e de texto padrão */
+body {
+    background-color: rgb(194, 132, 132);
+    color: black;
+}
+
+/* define a fonte padrão */
+body,
+input,
+textarea,
+button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* remove a lista padrão de marcadores */
+ul,
+ol {
+    list-style: none;
+}
+
+/* define as imagens como responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+}
